@@ -1,0 +1,48 @@
+footer {
+  background: #e2e2e2;
+  overflow: hidden;
+  padding: 30px 0;
+  margin-top: 50px;
+  .gallary,
+  .info,
+  .contact {
+    float: $float-l;
+  }
+
+  .gallary {
+    width: 50%;
+    .img-box {
+      overflow: hidden;
+      margin-bottom: 20px;
+      img {
+        float: $float-l;
+        width: 150px;
+        height: 150px;
+      }
+      .text {
+        float: $float-l;
+        margin: 0 15px;
+        width: calc(100% - 180px);
+
+        h4 {
+          color: $redColor;
+        }
+        p {
+          color: #888;
+          line-height: 1.7;
+        }
+      }
+    }
+  }
+  .info {
+    width: 25%;
+  }
+  .contact {
+    width: 25%;
+  }
+
+  .section-title {
+    color: #777;
+    font-weight: normal;
+  }
+}

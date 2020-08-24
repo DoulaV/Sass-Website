@@ -41,6 +41,22 @@
   z-index: -1;
 }
 
+.main-button {
+  background-color: rgba(226, 57, 76, 0.8);
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  text-align: center;
+  width: 120px;
+  border-radius: 10px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.main-button:hover {
+  background-color: #e2394c;
+}
+
 body {
   background-color: #f6f6f6;
   font-size: 16px;
@@ -188,5 +204,61 @@ ol {
 
 .lorem .lorem-container img {
   padding: 30px;
+}
+
+footer {
+  background: #e2e2e2;
+  overflow: hidden;
+  padding: 30px 0;
+  margin-top: 50px;
+}
+
+footer .gallary,
+footer .info,
+footer .contact {
+  float: left;
+}
+
+footer .gallary {
+  width: 50%;
+}
+
+footer .gallary .img-box {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+footer .gallary .img-box img {
+  float: left;
+  width: 150px;
+  height: 150px;
+}
+
+footer .gallary .img-box .text {
+  float: left;
+  margin: 0 15px;
+  width: calc(100% - 180px);
+}
+
+footer .gallary .img-box .text h4 {
+  color: #e2394c;
+}
+
+footer .gallary .img-box .text p {
+  color: #888;
+  line-height: 1.7;
+}
+
+footer .info {
+  width: 25%;
+}
+
+footer .contact {
+  width: 25%;
+}
+
+footer .section-title {
+  color: #777;
+  font-weight: normal;
 }
 /*# sourceMappingURL=homepage.css.map */
